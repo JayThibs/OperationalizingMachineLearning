@@ -86,11 +86,11 @@ In this project, we'll follow above steps, these are:
 #### Scheduled Pipeline Run
 ![Scheduled Pipeline Run](./screenshots/7_sheduled_run.png)
 
+###  Improvement Suggestions
+In the future, the performance of the algorithm may be better if we have more data and run AutoML again. Also we need to run for more time after getting more data as of now there is less data and it looks it has high accuracy and it probably reached the possible limit performance.
+
+Another possible improvement would be to try using Deep Learning, which is currently not used by AutoMl in the runs we tried.
+
 ## Screen Recording
 - If link is not working then, one can find video in repository in "video" folder. 
 [Screencast link](https://drive.google.com/file/d/1oQUVRSGw4raDECiux3RIQQt_zQqe9YBN/view?usp=sharing)
-
-##  Improvement Suggestions
-In the future, the performance of the algorithm may be better if we have more data and run AutoML again. Also we need to run for more time after getting more data as of now there is less data and it looks it have high accuracy and it probably reached the possible limit performance.
-
-Another possible improvement would be to try using Deep Learning, which is currently not used by AutoMl in the runs we tried.
