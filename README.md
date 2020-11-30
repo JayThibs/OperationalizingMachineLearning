@@ -87,9 +87,11 @@ In this project, we'll follow above steps, these are:
 ![Scheduled Pipeline Run](./screenshots/7_sheduled_run.png)
 
 ###  Improvement Suggestions
-In the future, the performance of the algorithm may be better if we have more data and run AutoML again. Also we need to run for more time after getting more data as of now there is less data and it looks it has high accuracy and it probably reached the possible limit performance.
+In the future, the performance of the algorithm may be better if we have more samples and run AutoML again. By having more samples, algorithms will learn patterns/relationships from them. Too little training samples results in a poor approximation. Patterns in data can easily be remembered by the algorithm if data is small and will miss complex patterns which can cause in poor performance in inference data.
 
-Another possible improvement would be to try using Deep Learning, which is currently not used by AutoMl in the runs we tried.
+Also we need to run for more time after getting more samples as of now there is less samples and it looks it has high accuracy and it probably reached the possible limit performance. By giving more time to learn, the AutoML will try different hyperparameters that may be better than the previous one.
+
+Another possible improvement would be to try using Deep Learning, which is currently not used by AutoMl in the runs we tried. As bank marketing data may have complex structures and by using deep learning it can discover hidden patterns in it.
 
 ## Screen Recording
 - If link is not working then, one can find video in repository in "video" folder. 
