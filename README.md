@@ -4,12 +4,12 @@
 
 In this project, we are going to configure, deploy, consume a model which is trained using Automated ML and consume the Endpoint. The Project also involves in creating, publishing, and consuming a pipeline.
 
-## Architectural Diagram
+## Architectural Diagram of the project
 ![Architectural Diagram of the project](./screenshots/azure_automl_architectural_diagram.png)
 
 In this project, we'll follow above steps, these are:
 
-1. Authentication: As we were using udacity workspace so we can't do this step beacuse of we are not authorized to create a security principal.
+1. Authentication: As we were using udacity workspace so we can't do this step beacuse we are not authorized to create a security principal.
 
 2. Auto ML model: In this project we will configure the AutoML, train and find the best model.
 
@@ -17,9 +17,9 @@ In this project, we'll follow above steps, these are:
 
 4. Enable logging: After deploying we'll enable application insights to monitor and check logs of model behaviour.
 
-5. Documentation: In this step we'll swagger document for the deployed model so that anyone can run using UI.
+5. Documentation: In this step we'll create swagger document for the deployed model so that anyone can run using UI.
 
-6. Consume model endpoints: In this step we'll write a python script in which we'll use the model endpoint get inference.
+6. Consume model endpoints: In this step we'll write a python script in which we'll use the model endpoint to get inference.
 
 7. Create and publish a pipeline: In this step we'll create a pipeline of all step (excluding step 4 and 5) and publish it on Azure so that one can use pipeline on new data and run experiment doing manually.
 
@@ -44,11 +44,8 @@ In this project, we'll follow above steps, these are:
 - After getting the best mode, next step was to deploy it. Below is the image of succesful deployment of model.
 ![Best model deployed](./screenshots/3_automl_model_deploy.png)
 
-- Below image give endpoint and application insights is disabled.
-![Endpoint and AI disabled](./screenshots/3_automl_model_deploy_ai_false.png)
-
 ### Step 4: Enable logging
-- To do this step we have to download congig.json file from our workspace and run the script "logs.py" (both files are included in the repository). After running the script we'll get logs, below is the image of the same.
+- To do this step we have to download config.json file from our workspace and run the script "logs.py" (both files are included in the repository). After running the script we'll get logs, below is the image of the same.
 ![Logs 1](./screenshots/4_logs_1.png)
 ![Logs 2](./screenshots/4_logs_2.png)
 
@@ -91,9 +88,9 @@ In this project, we'll follow above steps, these are:
 
 ## Screen Recording
 - If link is not working then, one can find video in repository in "video" folder. 
-[Screencast link](https://drive.google.com/file/d/1r_CgNGdqX62BnslVC9iZEspJpQDt2VMj/view?usp=sharing)
+[Screencast link](https://drive.google.com/file/d/1oQUVRSGw4raDECiux3RIQQt_zQqe9YBN/view?usp=sharing)
 
-## Standout Suggestions
+##  Improvement Suggestions
 In the future, the performance of the algorithm may be better if we have more data and run AutoML again. Also we need to run for more time after getting more data as of now there is less data and it looks it have high accuracy and it probably reached the possible limit performance.
 
 Another possible improvement would be to try using Deep Learning, which is currently not used by AutoMl in the runs we tried.
